@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hair Studio Website</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-<link href="https://fonts.googleapis.com/css2?family=Corinthia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 <body>
     <!--banner-->
@@ -29,16 +29,17 @@
     <section id="sideNav">
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Testimonial</a></li>
-                <li><a href="#">Meet us</a></li>
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#feature">Features</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+                <li><a href="#footer">Meet us</a></li>
         </ul>
     </nav>
     </section>
     <div id="menuBtn">
         <img src="C:\Users\hn\bài case study\image\menu.png" id="menu">
+   
     </div>
     <!--end sideNav-->
        <!--features-->
@@ -52,7 +53,7 @@
                 <h1>Experienced Staff</h1>
                 <div class="features-desc">
                     <div class="features-icon">
-                        <i class="bi bi-shield-shaded"><i>
+                        <i class="bi bi-shield-shaded"></i>
                     </div>
                     <div class="features-text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod feugiat est non porta
@@ -63,7 +64,7 @@
                 <h1>Pre Booking Online</h1>
                 <div class="features-desc">
                     <div class="features-icon">
-                        <i class="bi bi-check2-square"><i>
+                        <i class="bi bi-check2-square"></i>
                     </div>
                     <div class="features-text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod feugiat est non porta
@@ -74,7 +75,7 @@
                 <h1>Affordable Cost</h1>
                 <div class="features-desc">
                     <div class="features-icon">
-                        <i class="bi bi-currency-euro"><i>
+                        <i class="bi bi-currency-euro"></i>
                     </div>
                     <div class="features-text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod feugiat est non porta
@@ -89,8 +90,133 @@
         </div>
     </section>
     <!--end features-->
-    
- 
+    <!--services-->
+    <section id="service">
+        <div class="tittle-text">
+            <p>SERVICES</p>
+            <h1>We Provider Better</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <img src="../image/pic-1.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Beard Trim</h3>
+                    <hr>
+                    <p>Morbi a urna sit amet ligula interdum hendrerit non condimentum lorem. Integer non arcu aliquam, vestibulum purus non, consequat eros.
+                        Donec aliquet purus a fermentum posuere. Nunc facilisis mi a massa scelerisque, nec eleifend eros facilisis. Nam gravida dictum nunc, in iaculis turpis tincidunt condimentum.
+                    </p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="../image/pic-2.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>hair cut</h3>
+                    <hr>
+                    <p>Morbi a urna sit amet ligula interdum hendrerit non condimentum lorem. Integer non arcu aliquam, vestibulum purus non, consequat eros.
+                        Donec aliquet purus a fermentum posuere. Nunc facilisis mi a massa scelerisque, nec eleifend eros facilisis. Nam gravida dictum nunc, in iaculis turpis tincidunt condimentum.
+                    </p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="../image/pic-3.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Styling</h3>
+                    <hr>
+                    <p>Morbi a urna sit amet ligula interdum hendrerit non condimentum lorem. Integer non arcu aliquam, vestibulum purus non, consequat eros.
+                        Donec aliquet purus a fermentum posuere. Nunc facilisis mi a massa scelerisque, nec eleifend eros facilisis. Nam gravida dictum nunc, in iaculis turpis tincidunt condimentum.
+                    </p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="../image/pic-4.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Dry Shampoo</h3>
+                    <hr>
+                    <p>Morbi a urna sit amet ligula interdum hendrerit non condimentum lorem. Integer non arcu aliquam, vestibulum purus non, consequat eros.
+                        Donec aliquet purus a fermentum posuere. Nunc facilisis mi a massa scelerisque, nec eleifend eros facilisis. Nam gravida dictum nunc, in iaculis turpis tincidunt condimentum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end services-->
+    <!--testimonial-->
+    <section id="testimonial">
+        <div class="tittle-text">
+            <p>TESTIMONIAL</p>
+            <h1>What Client Says</h1>    
+        </div>
+        <div class="testimonial-row">
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="C:\Users\hn\bài case study\image\img-1.jpg" alt="">
+                    <div class="user-info">
+                        <h4>KEN NORMAN <i class="bi bi-twitter"></i> </h4>
+                        <small>@kennorman</small>
+                    </div>
+                </div>
+                <p>Morbi a urna sit amet ligula interdum hendrerit non condimentum lorem. Integer non arcu aliquam, vestibulum purus non, consequat eros.
+                    Donec aliquet purus a fermentum posuere. Nunc facilisis mi a massa scelerisque, nec eleifend eros facilisis. Nam gravida dictum nunc, in iaculis turpis tincidunt condimentum.</p>        
+                </div>
+                <div class="testimonial-col">
+                    <div class="user">
+                        <img src="C:\Users\hn\bài case study\image\img-2.jpg" alt="">
+                        <div class="user-info">
+                            <h4>KARIAN NICK <i class="bi bi-twitter"></i> </h4>
+                            <small>@kariannick</small>
+                        </div>
+                    </div>
+                    <p>Morbi a urna sit amet ligula interdum hendrerit non condimentum lorem. Integer non arcu aliquam, vestibulum purus non, consequat eros.
+                        Donec aliquet purus a fermentum posuere. Nunc facilisis mi a massa scelerisque, nec eleifend eros facilisis. Nam gravida dictum nunc, in iaculis turpis tincidunt condimentum.</p>                      
+                    </div>
+                    <div class="testimonial-col">
+                        <div class="user">
+                            <img src="C:\Users\hn\bài case study\image\img-3.jpg" alt="">
+                            <div class="user-info">
+                                <h4>DIARA JAMES <i class="bi bi-twitter"></i> </h4>
+                                <small>@diarajames</small>
+                            </div>
+                        </div>
+                        <p>Morbi a urna sit amet ligula interdum hendrerit non condimentum lorem. Integer non arcu aliquam, vestibulum purus non, consequat eros.
+                            Donec aliquet purus a fermentum posuere. Nunc facilisis mi a massa scelerisque, nec eleifend eros facilisis. Nam gravida dictum nunc, in iaculis turpis tincidunt condimentum.</p>
+                        </div>
+        </div>
+    </section>
+ <!--end testimonial-->
+ <!--footer-->
+ <section id="footer" >
+     <img src="C:\Users\hn\bài case study\image\footer-img.png" class="footer-img">
+     <div class="tittle-text">
+         <p>CONTACT</p>
+         <h1>Visit Shop Today</h1>
+     </div>
+     <div class="footer-row">
+         <div class="footer-left">
+             <h1>Opening Hours</h1>
+             <p> <i class="bi bi-clock"></i>Monday To Friday - 9am to 9pm </p>
+             <p> <i class="bi bi-clock"></i>Saturday To Sunday - 8am to 11pm </p>
+         </div>
+         <div class="footer-right">
+             <h1>Get In Touch</h1>
+             <p>#30 abc Colony, xyz City IN <i class="bi bi-geo-alt"></i> </p>
+             <p>example@website.com <i class="bi bi-paperclip"></i> </p>
+             <p>+01 123456789 <i class="bi bi-phone"></i> </p>
+         </div>
+     </div>
+     <div class="social-links">
+         <i class="bi bi-facebook"></i>
+         <i class="bi bi-instagram"></i>
+         <i class="bi bi-twitter"></i>
+         <i class="bi bi-youtube"></i>
+         <p>Copyright Easy Tutorial Youtube Channel</p>
+     </div>
+ </section>
+ <!--end footer-->
+
     <script>
         var menuBtn = document.getElementById("menuBtn");
         var sideNav = document.getElementById("sideNav");
@@ -105,6 +231,13 @@
             menu.src = "../image/menu.png";
             }
         }
+
+        // All animations will take exactly 1000ms
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
     </script>
 </body>
 </html>
+<!-- netlify.com -->
