@@ -325,7 +325,7 @@ hr{
     margin:40px 5px 0;
     color: #009688;
     cursor: pointer;
-    transition: .5s;
+    transition: 5s;
 }
 .social-links .bi:hover{
     color: #ff9900;
