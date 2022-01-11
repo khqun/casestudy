@@ -3,6 +3,10 @@
     padding: 0;
     font-family: 'poppins',sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
 /* banner */
 #banner{
     background-image: linear-gradient(rgba(0,0,0,0.5),#009688),
@@ -325,7 +329,7 @@ hr{
     margin:40px 5px 0;
     color: #009688;
     cursor: pointer;
-    transition: 5s;
+    transition: .5s;
 }
 .social-links .bi:hover{
     color: #ff9900;
